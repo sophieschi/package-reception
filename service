@@ -10,7 +10,7 @@ from hosted import CONFIG, NODE
 CONFIG.restart_on_update()
 
 tz = pytz.timezone(CONFIG['timezone'])
-locale.setlocale(locale.LC_ALL, CONFIG['locale'])
+locale.setlocale(locale.LC_ALL, 'de_DE.UTF-8')
 
 
 def current_time():
