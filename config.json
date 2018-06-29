@@ -4,5 +4,6 @@
         "asset_name": "foo"
     },
     "pages": [],
-    "time_fmt": "%a %H:%M"
+    "time_fmt": "%a %H:%M",
+	"locale": "de_DE.UTF-8"
 }

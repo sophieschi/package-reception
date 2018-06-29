@@ -2,6 +2,7 @@
 import time
 import sys
 import pytz
+import locale
 from datetime import datetime, timedelta
 from calendar import timegm
 from hosted import CONFIG, NODE
@@ -9,6 +10,8 @@ from hosted import CONFIG, NODE
 CONFIG.restart_on_update()
 
 tz = pytz.timezone(CONFIG['timezone'])
+locale.setlocale(locale.LC_ALL, CONFIG['locale'])
+
 
 def current_time():
     now = datetime.utcnow()
