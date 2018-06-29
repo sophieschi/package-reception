@@ -1,4 +1,4 @@
-# Reception Screen
+# Reception Screen --- custom
 
 This package allows you to display images, videos and text next to a text scroller.
 All offered with an easy configuration interface that allows you to schedule your
