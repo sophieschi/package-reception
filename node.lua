@@ -809,7 +809,7 @@ local function playlist()
                 x = 0,
                 y = 2,
                 font = font_regl, 
-                r = 1, g = 1, b = 1,
+                r = 0, g = 0, b = 0,
             },
             coord = tile_bottom_clock,
         }
